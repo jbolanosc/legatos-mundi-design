@@ -1,0 +1,136 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.backimg{
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+
+
+.card-panel{
+    height: 400px;
+}
+
+.card-panel .grey{
+    height: 100px;
+}
+
+img .materialboxed{
+    min-height: 600px;
+}
+
+.materialboxed{
+    min-height: 200px;
+    max-height: 200px;
+    width: 700px;
+}
+
+.section-follow{
+    height: 250px;
+}
+
+.section-follow .fa-4x{
+    margin: 5px 10px;
+}
+
+.section-follow h4{
+    padding-top: 10px;
+}
+
+.caption span{
+    left: 10%;
+  
+}
+
+
+.caption span img{
+ max-height: 600px;
+ max-width: 600px; 
+ 
+}
+
+.cap1 h2 {
+    font-size: 60px;
+}
+
+.cap1 h4 {
+    font-size: 50px;
+}
+
+.cap1 h5 {
+    font-size: 40px;
+}
+
+.cap1 h2, .cap1 h4, .cap1 h5{
+    -webkit-text-stroke: #003300 1.5px;
+    font-weight: bolder;
+}
+
+
+
+
+.card-panel1 {
+    text-align: center;
+    padding: 35px 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease 0s; }
+  
+.card-panel1:hover {
+    background-color: #558000;
+    color: #fff; }
+  
+.card-panel1:before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: white white rgba(1, 1, 1, 0.2) rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    transition: all 0.3s ease 0s; }
+  
+.card-panel1:hover::before {
+    top: 0;
+    right: 0; }
+  
+.card-panel1 i {
+    display: block;
+    margin-bottom: 20px;
+    transition: all 0.3s ease 0s; }
+  
+.card-panel1 .title {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0 0 16px 0;
+    transition: all 0.3s ease 0s; }
+  
+.card-panel1 .description {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+    transition: all 0.3s ease 0s; }
+
+@media(max-width: 760px){
+    .cap1 h4 {
+        font-size: 35px;
+    }
+    
+    .cap1 h5 {
+        font-size: 23px;
+    }
+
+    .materialboxed{
+        min-height: 300px;
+        min-width: 400px;
+        max-width: 400px;
+        
+    }
+
+    
+}
