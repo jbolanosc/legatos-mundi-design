@@ -116,7 +116,13 @@ img .materialboxed{
     margin: 0;
     transition: all 0.3s ease 0s; }
 
-@media(max-width: 760px){
+@media(max-width: 800px){
+
+    .brand-logo
+    {
+        width: 300px;
+        margin-left: 60px;
+    }
     .cap1 h4 {
         font-size: 35px;
     }
@@ -128,7 +134,8 @@ img .materialboxed{
     .materialboxed{
         min-height: 300px;
         min-width: 400px;
-        max-width: 400px;
+        max-width: 290px;
+        padding-right: 150px;
         
     }
 
