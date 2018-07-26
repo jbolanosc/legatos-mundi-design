@@ -118,6 +118,10 @@ img .materialboxed{
 
 @media(max-width: 800px){
 
+    body{
+        width: 100%;
+    }
+
     .brand-logo
     {
         width: 300px;
@@ -131,11 +135,15 @@ img .materialboxed{
         font-size: 23px;
     }
 
+    footer{
+        width: 100%;
+    }
+
     .materialboxed{
         min-height: 300px;
         min-width: 400px;
         max-width: 290px;
-        padding-right: 150px;
+        padding-right: 130px;
         
     }
 
